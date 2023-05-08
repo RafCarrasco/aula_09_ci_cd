@@ -37,3 +37,11 @@ def test_subtracao():
     output = methods.subtracao(v1, v2)
     
     assert output == 0
+
+def test_multiplicacao():
+    v1 = 2
+    v2 = 2
+
+    output = methods.multiplicacao(v1, v2)
+    
+    assert output == 4

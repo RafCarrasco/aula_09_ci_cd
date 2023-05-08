@@ -14,3 +14,6 @@ def subtracao(v1, v2):
     subtracao = v1 - v2
     return subtracao
 
+def multiplicacao(v1, v2):
+    multiplicacao = v1 * v2
+    return multiplicacao
