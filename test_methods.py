@@ -21,3 +21,12 @@ def test_perimeter():
     
     # then the perimeter should be 14
     assert output == 14
+
+def test_soma():
+    v1 = 2
+    v2 = 2
+
+    output = methods.soma(v1, v2)
+    
+    assert output == 4
+
