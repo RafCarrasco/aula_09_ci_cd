@@ -30,3 +30,10 @@ def test_soma():
     
     assert output == 4
 
+def test_subtracao():
+    v1 = 2
+    v2 = 2
+
+    output = methods.subtracao(v1, v2)
+    
+    assert output == 0

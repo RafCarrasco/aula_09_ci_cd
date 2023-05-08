@@ -10,4 +10,7 @@ def soma(v1, v2):
     soma = v1 + v2
     return soma
 
+def subtracao(v1, v2):
+    subtracao = v1 - v2
+    return subtracao
 
