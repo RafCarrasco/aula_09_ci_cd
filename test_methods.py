@@ -45,3 +45,11 @@ def test_multiplicacao():
     output = methods.multiplicacao(v1, v2)
     
     assert output == 4
+
+def test_dividir():
+    v1 = 2
+    v2 = 2
+
+    output = methods.dividir(v1, v2)
+    
+    assert output == 1
